@@ -29,7 +29,6 @@ public class MyArrayList {
 	}
 	
 	public void remove(int i) throws Exception{
-		//this.size--;
 		for(int j = i; j < this.size-1; j++) {
 			data[j] = data[j+1];
 		}
