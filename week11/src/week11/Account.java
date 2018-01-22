@@ -11,17 +11,17 @@ public abstract class Account {
 	}
 	
 	public String getID() {
-		return id;
+		return id;//get id
 	}
 	public double getBalance() {
-		return balance;
+		return balance;//get balance
 	}
 	@Override
 	public String toString() {
-		return "ID: " + id + " Balance: " + balance;
+		return "ID: " + id + " Balance: " + balance;// return string value
 	}
 
-    public abstract boolean withdraw(double amount);
-    public abstract void deposit(double amount);
+    public abstract boolean withdraw(double amount);//abstract cons
+    public abstract void deposit(double amount);//abstact cons
 
 }
