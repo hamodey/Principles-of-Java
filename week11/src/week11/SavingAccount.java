@@ -20,15 +20,14 @@ public class SavingAccount extends Account{
 			return false;
 		}
 	}
-
 	@Override
 	public void deposit(double amount) {
 		// TODO Auto-generated method stub
-		balance = balance + amount;
+		balance += amount;
 	}
-	public double addInrest(double rate) {
+	public double addInterest(double rate) {
         double interest = balance * (rate / 100);
-        balance = balance + interest;
+        balance += interest;
         return interest;
 	}
 
