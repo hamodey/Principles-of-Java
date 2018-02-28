@@ -20,5 +20,4 @@ public class Cylinder implements Area, Volume{
 		double aOs = 2*pi*r*h;
 		return (aOc*2) + aOs;	
 	}
-
 }
